@@ -365,7 +365,7 @@ if ( !abort ) {
             'realclearpolitics.com',
             'realitytea.com',
             'redeyechicago.com',
-            'sandiegouniontribune.com',
+            /*'sandiegouniontribune.com',*/
             'saveur.com',
             'seattlepi.com',
             'sherdog.com',
@@ -554,7 +554,7 @@ if ( !abort ) {
 
     scriptlets.push({
         scriptlet: scriptlet,
-        targets: [
+        targets: [ 'sandiegouniontribune.com'
         ]
     });
 })();
